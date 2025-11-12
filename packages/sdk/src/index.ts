@@ -189,7 +189,7 @@ export class PayloadApiClient<C extends Config> {
       headers: {
         'Content-Type': 'application/json',
       },
-      method: 'DELETE',
+      method: 'PATCH',
     });
 
     return response.json();
